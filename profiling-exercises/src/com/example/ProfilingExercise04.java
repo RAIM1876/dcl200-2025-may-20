@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class ProfilingExercise4 {
+public class ProfilingExercise04 {
 
 	public static void main(String[] args) {
 		List<Thread> threads = new ArrayList<>();

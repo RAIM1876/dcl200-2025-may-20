@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-public class ProfilingExercise5 {
+public class ProfilingExercise05 {
 	private static Map<Key, Integer> myMap = new HashMap<>();
 
 	public static void main(String[] args) throws InterruptedException {
