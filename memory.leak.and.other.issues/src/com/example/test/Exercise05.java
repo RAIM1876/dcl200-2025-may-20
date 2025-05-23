@@ -2,11 +2,13 @@ package com.example.test;
 
 import java.lang.ref.WeakReference;
 import java.util.Objects;
+import java.util.WeakHashMap;
 
 public class Exercise05 {
 
 	public static void main(String[] args) {
 		var strongRef = new Circle(1,2,3);
+
 		WeakReference<Circle> weakRef = new WeakReference<>(strongRef);
 		strongRef = null;
 		System.gc(); // FullGC -> unless -XX:+DisableExplicitGC

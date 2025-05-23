@@ -1,7 +1,7 @@
 package com.example.java7;
 
 @SuppressWarnings("unused")
-public class Exercise05 {
+public class Exercise05 extends Object {
 
 	public static void main(String[] args) {
 		// try-with-resources

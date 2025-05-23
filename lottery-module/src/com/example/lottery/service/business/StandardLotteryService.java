@@ -19,6 +19,7 @@ public class StandardLotteryService implements LotteryService {
 		return IntStream.generate(() -> randomService.generate(1, max))
 				        .distinct()
 				        .limit(size)
+				        .sorted()
 				        .boxed()
 				        .toList();
 	}

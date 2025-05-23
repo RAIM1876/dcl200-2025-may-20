@@ -55,6 +55,7 @@ public class Stack<E> implements Iterable<E>{
         if (isEmpty())
             throw new RuntimeException("Stack underflow");
         E item = array[--N];
+        array[N] = null; 
         return item;
     }
  

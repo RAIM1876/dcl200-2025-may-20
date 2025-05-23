@@ -20,10 +20,10 @@ public class StudyBinanceClient2 {
 		var start = System.currentTimeMillis();
 		for (var i=0;i<10;++i) {
 			httpClient.sendAsync(request,BodyHandlers.ofString()).thenAcceptAsync( response -> {
-				System.err.println(response.body());
+				System.err.println("[%s] %s".formatted(Thread.currentThread().getName(),response.body()));
 				if(counter.incrementAndGet() == 10) {
 					var stop = System.currentTimeMillis();
-					System.out.println("%d ms".formatted(stop-start));					
+					System.out.println("[%s] %d ms".formatted(Thread.currentThread().getName(),stop-start));					
 				}
 			});
 			//TimeUnit.MILLISECONDS.sleep(1);

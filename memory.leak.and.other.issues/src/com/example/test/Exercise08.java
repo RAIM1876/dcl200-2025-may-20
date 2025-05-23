@@ -6,17 +6,18 @@ import java.util.Objects;
 public class Exercise08 {
 
 	public static void main(String[] args) {
-		var set = new HashSet<>(20_000_000,0.5f);
+		var set = new HashSet<>();
+		set.add(new ABC(42));
 		var start = System.currentTimeMillis();
-		for (var i = 0; i < 10_000_000; ++i) {
-			set.add(new ABC(i));
-		}
-//		System.out.println(set.size());
-//		while (!set.isEmpty()) {
-//			set.remove(new ABC(42));
-//			System.out.println(set.size());
+//		for (var i = 0; i < 10_000_000; ++i) {
+//			set.add(new ABC(i));
 //		}
-//		System.out.println(set.size());
+		System.out.println(set.size());
+		while (!set.isEmpty()) {
+			set.remove(new ABC(42));
+			System.out.println(set.size());
+		}
+		System.out.println(set.size());
 		var stop = System.currentTimeMillis();
 		System.out.println("Duration: %d ms. length: %d".formatted(stop - start,set.size()));
 		
@@ -24,6 +25,7 @@ public class Exercise08 {
 
 }
 
+record R1(int x) {}
 class ABC {
 	private int x;
 
@@ -51,8 +53,6 @@ class ABC {
 		ABC other = (ABC) obj;
 		return x == other.x;
 	}
-
-
 
 
 	
